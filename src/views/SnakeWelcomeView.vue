@@ -50,7 +50,7 @@ export default {
         },
         goToMenu() {
             // Regresa a la landing page principal
-            this.$router.push({ name: 'landing' })
+            window.location.href = import.meta.env.VITE_PLAYLAB_MENU_URL;
         }
     }
 }

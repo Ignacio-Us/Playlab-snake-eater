@@ -6,7 +6,7 @@ const router = createRouter({
   routes: [
     {
       path: '/',
-      name: 'landing',
+      redirect: '/snake-eater',
     },
     {
       path: '/snake-eater',
